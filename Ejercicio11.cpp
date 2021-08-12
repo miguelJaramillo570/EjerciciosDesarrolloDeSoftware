@@ -30,7 +30,7 @@ char pop(Pila &top)
      Pila aux;
      
      aux = top ;
-     c = aux->dato;   // asignamos el primer vamor de la pila
+     c = aux->dato;   
      top = aux->sgte ;
      delete(aux);
      return c;
@@ -85,7 +85,7 @@ void balanceoSimbolos( Pila &p, string cad)
 
 int main()
 {
-    Pila pila = NULL;    // creando Pila
+    Pila pila = NULL;   
     string cad;
     
     cout<<"\n\t\tBALANCEO DE SIMBOLOS DE AGRUPACION \n\n";
